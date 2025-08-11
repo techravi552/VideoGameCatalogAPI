@@ -1,4 +1,4 @@
-const { default: mongoose, Schema } = require("mongoose");
+const { default: mongoose, Schema } = require("mongoose")
 
 publishersSchema = new mongoose.Schema({
     name:{type:String ,required:true , unique:true },
